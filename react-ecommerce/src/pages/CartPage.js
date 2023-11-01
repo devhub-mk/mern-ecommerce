@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "../features/navbar/Navbar";
 import Cart from "../features/cart/Cart";
 
 const CartPage = () => {
   return (
     <div>
-      <Cart />
+      <Navbar>
+        <Cart />
+      </Navbar>
     </div>
   );
 };
